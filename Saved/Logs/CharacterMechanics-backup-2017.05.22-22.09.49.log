@@ -1,0 +1,601 @@
+﻿Log file open, 05/22/17 18:01:40
+LogInit:Display: Running engine for game: CharacterMechanics
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(440667350) SRandInit(440667350).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 6.821445
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Software/UnrealEngine/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.22-17.01.42:038][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-17.01.42:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.22-17.01.42:140][  0]LogInit: Computer: DESKTOP-SH5P05C
+[2017.05.22-17.01.42:140][  0]LogInit: User: txhun
+[2017.05.22-17.01.42:140][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.22-17.01.42:140][  0]LogInit: High frequency timer resolution =2.338446 MHz
+[2017.05.22-17.01.42:151][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.22-17.01.42:151][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.22-17.01.42:151][  0]LogMemory: Process Physical Memory: 263.43 MB used, 263.43 MB peak
+[2017.05.22-17.01.42:151][  0]LogMemory: Process Virtual Memory: 262.78 MB used, 262.78 MB peak
+[2017.05.22-17.01.42:151][  0]LogMemory: Physical Memory: 3500.58 MB used,  4577.00 MB free, 8077.58 MB total
+[2017.05.22-17.01.42:151][  0]LogMemory: Virtual Memory: 645.23 MB used,  4577.00 MB free, 134217728.00 MB total
+[2017.05.22-17.01.43:497][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.22-17.01.48:450][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.22-17.01.48:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
+[2017.05.22-17.01.48:942][  0]LogD3D11RHI:       2017/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.22-17.01.48:979][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.22-17.01.48:979][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.22-17.01.49:045][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.22-17.01.49:045][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.22-17.01.49:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.22-17.01.49:091][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.22-17.01.49:091][  0]LogD3D11RHI:     GPU DeviceId: 0xfd1 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.22-17.01.49:091][  0]LogWindows: EnumDisplayDevices:
+[2017.05.22-17.01.49:092][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.05.22-17.01.49:092][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.22-17.01.49:092][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.22-17.01.49:092][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2017.05.22-17.01.49:092][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.05.22-17.01.49:092][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
+[2017.05.22-17.01.49:093][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.05.22-17.01.49:093][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.05.22-17.01.49:093][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.22-17.01.49:111][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.22-17.01.49:147][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.22-17.01.49:148][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.22-17.01.49:349][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.22-17.01.49:443][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Intermediate/Shaders/WorkingDirectory/2052/).
+[2017.05.22-17.01.49:444][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/txhun/AppData/Local/Temp/UnrealShaderWorkingDir/5E3B96B04B648BB7DE6C3F94E4B643A5/'.
+[2017.05.22-17.01.49:444][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.22-17.01.59:326][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.22-17.01.59:400][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.22-17.01.59:490][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.22-17.01.59:574][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.22-17.01.59:706][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.22-17.01.59:796][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.22-17.01.59:860][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.22-17.01.59:938][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.22-17.01.59:988][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.22-17.02.00:088][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.22-17.02.00:148][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.22-17.02.00:221][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.22-17.02.00:295][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.22-17.02.00:369][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.22-17.02.00:447][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.22-17.02.00:593][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.22-17.02.00:593][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.22-17.02.00:647][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.22-17.02.00:804][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.22-17.02.00:845][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.22-17.02.00:917][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.22-17.02.01:004][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.22-17.02.01:065][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.22-17.02.01:168][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.22-17.02.01:168][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.22-17.02.02:614][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache: Loaded boot cache 0.83s 50MB C:/Users/txhun/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/txhun/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.22-17.02.03:463][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.22-17.02.03:560][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.22-17.02.03:595][  0]LogDerivedDataCache: Using Local data cache path C:/Users/txhun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.22-17.02.03:821][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.22-17.02.03:892][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-17.02.03:892][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-17.02.17:279][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-17.02.17:333][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.22-17.02.18:049][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.22-17.02.18:139][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.22-17.02.18:190][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.22-17.02.18:190][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.22-17.02.18:190][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.22-17.02.23:618][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: charactermechanics, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3227079887
+[2017.05.22-17.02.23:779][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.05.22-17.02.23:875][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.051922 seconds
+[2017.05.22-17.02.23:923][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.22-17.02.23:923][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.22-17.02.23:923][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.22-17.02.23:989][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.22-17.02.43:465][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.22-17.02.43:535][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.22-17.02.45:176][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.22-17.02.45:967][  0]SourceControl: Info Source control is disabled
+[2017.05.22-17.02.46:362][  0]SourceControl: Info Source control is disabled
+[2017.05.22-17.02.46:476][  0]SourceControl: Info Source control is disabled
+[2017.05.22-17.02.46:590][  0]SourceControl: Info Source control is disabled
+[2017.05.22-17.02.50:284][  0]LogEngine: Initializing Engine...
+[2017.05.22-17.02.50:329][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.22-17.02.50:510][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.22-17.02.50:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.22-17.02.50:841][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.22-17.02.50:937][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.02.51:481][  0]LogInit: FAudioDevice initialized.
+[2017.05.22-17.02.51:523][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/txhun/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-17.02.51:590][  0]LogInit: Texture streaming: Enabled
+[2017.05.22-17.02.52:304][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.22-17.02.52:811][  0]LogInit: Transaction tracking system initialized
+[2017.05.22-17.02.53:930][  0]BlueprintLog: New page: Editor Load
+[2017.05.22-17.02.56:939][  0]LocalizationService: Info Localization service is disabled
+[2017.05.22-17.02.58:931][  0]LogConsoleResponse:Display: 
+[2017.05.22-17.03.00:868][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.22-17.03.00:868][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.22-17.03.01:349][  0]LogFileCache: Scanning file cache for directory 'D:/School/GamerCamp/CharMechs/CharacterMechanics/Content/' took 0.07s
+[2017.05.22-17.03.04:935][  0]SourceControl: Info Source control is disabled
+[2017.05.22-17.03.04:972][  0]Cmd: MAP LOAD FILE="../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.22-17.03.04:984][  0]LightingResults: New page: Lighting Build
+[2017.05.22-17.03.05:157][  0]MapCheck: New page: Map Check
+[2017.05.22-17.03.05:157][  0]LightingResults: New page: Lighting Build
+[2017.05.22-17.03.07:731][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 53 MB total VRAM
+[2017.05.22-17.03.08:091][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512) - 53 MB total VRAM
+[2017.05.22-17.03.08:163][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 53 MB total VRAM
+[2017.05.22-17.03.08:182][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 53 MB total VRAM
+[2017.05.22-17.03.08:305][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512) - 53 MB total VRAM
+[2017.05.22-17.03.08:341][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 53 MB total VRAM
+[2017.05.22-17.03.08:357][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512) - 53 MB total VRAM
+[2017.05.22-17.03.08:531][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256) - 53 MB total VRAM
+[2017.05.22-17.03.08:563][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32) - 53 MB total VRAM
+[2017.05.22-17.03.08:570][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024) - 53 MB total VRAM
+[2017.05.22-17.03.08:606][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32) - 53 MB total VRAM
+[2017.05.22-17.03.08:634][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 177863__dredile__clean-revolver-reload...
+[2017.05.22-17.03.08:984][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 122103__greatmganga__dshk-01...
+[2017.05.22-17.03.09:040][  0]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.03.09:972][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.22-17.03.10:269][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.22-17.03.10:421][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 151.179ms to complete.
+[2017.05.22-17.03.10:421][  0]LogFileHelpers: Loading map 'TestLevel' took 5.449
+[2017.05.22-17.03.10:666][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.22-17.03.11:899][  0]LogCollectionManager: Loaded 0 collections in 0.001968 seconds
+[2017.05.22-17.03.12:172][  0]LogFileCache: Scanning file cache for directory 'D:/School/GamerCamp/CharMechs/CharacterMechanics/Saved/Collections/' took 0.01s
+[2017.05.22-17.03.12:172][  0]LogFileCache: Scanning file cache for directory 'D:/School/GamerCamp/CharMechs/CharacterMechanics/Content/Developers/txhun/Collections/' took 0.01s
+[2017.05.22-17.03.12:172][  0]LogFileCache: Scanning file cache for directory 'D:/School/GamerCamp/CharMechs/CharacterMechanics/Content/Collections/' took 0.01s
+[2017.05.22-17.03.12:172][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.05.22-17.03.12:230][  0]LogContentBrowser: Native class hierarchy populated in 0.0449 seconds. Added 2245 classes and 453 folders.
+[2017.05.22-17.03.12:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.05.22-17.03.13:290][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.05.22-17.03.13:392][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.22-17.03.13:624][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.22-17.03.13:748][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.22-17.03.14:069][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.05.22-17.03.14:071][  0]LogLoad: (Engine Initialization) Total time: 110.17 seconds
+[2017.05.22-17.03.14:071][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
+[2017.05.22-17.03.14:071][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.22-17.03.14:071][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.22-17.03.14:106][  0]LogOcInput: OculusInput pre-init called
+[2017.05.22-17.03.14:169][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.22-17.03.14:204][  0]LogSlate: Took 0.016567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.22-17.03.14:228][  0]LogSlate: Took 0.018668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.22-17.03.14:274][  0]LogSlate: Took 0.020335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.22-17.03.14:699][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.22-17.03.14:699][  0]LogSlate: Took 0.060187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-17.03.15:604][  3]LogAssetRegistry: Asset discovery search completed in 51.8478 seconds
+[2017.05.22-17.03.15:604][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.05.22-17.03.15:632][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.05.22-17.03.15:703][  3]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-17.03.20:074][239]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.03.20:096][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.03.20:097][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.03.20:125][239]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:03:20 PM)
+[2017.05.22-17.03.20:125][239]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.03.20:187][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061111s)
+[2017.05.22-17.03.20:188][239]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.03.20:189][239]LogPlayLevel: PIE: World Init took: (0.001897s)
+[2017.05.22-17.03.20:189][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.063587s)
+[2017.05.22-17.03.20:215][239]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.03.20:225][239]LogInit: FAudioDevice initialized.
+[2017.05.22-17.03.20:355][239]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.03.20:374][239]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.03.20
+[2017.05.22-17.03.20:375][239]LogWorld: Bringing up level for play took: 0.004714
+[2017.05.22-17.03.20:430][239]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.05.22-17.03.20:442][239]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.533
+[2017.05.22-17.03.20:443][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.03.21:157][267]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.03.22:611][340]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.03.24:240][420]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.03.36:726][ 65]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.03.37:422][101]PIE:Warning: Warning Mobility of Wall14 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.03.38:386][151]PIE:Warning: Warning Mobility of Wall14 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.03.40:771][274]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:07FA
+[2017.05.22-17.03.40:771][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Add Impulse in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.03.40:771][274]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:08E7
+[2017.05.22-17.03.40:771][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Collision Response to Channel in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.03.41:114][292]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.03.49:008][701]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.03.49:788][741]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.03.50:261][765]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.03.50:590][782]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.03:921][473]PIE:Warning: Warning Mobility of Cube2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.04.04:635][510]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:07FA
+[2017.05.22-17.04.04:635][510]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Add Impulse in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.04.04:635][510]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:08E7
+[2017.05.22-17.04.04:635][510]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Collision Response to Channel in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.04.05:525][556]PIE:Warning: Warning Mobility of Cube10 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.05:775][569]PIE:Warning: Warning Mobility of Cube10 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.04.16:276][126]PIE:Warning: Warning Mobility of Cube13 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.18:205][225]PIE:Warning: Warning Mobility of Cube13 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.04.18:918][262]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.19:413][288]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.04.19:795][308]PIE:Warning: Warning Mobility of Cube10 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.49:309][840]PIE:Warning: Warning Mobility of Cube10 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.04.49:878][870]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.04.55:564][167]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.05.13:968][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.05.14:087][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.05.23:842][548]SourceControl: Info On branch master
+[2017.05.22-17.05.23:842][548]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.22-17.05.23:842][548]SourceControl: Info Changes not staged for commit:
+[2017.05.22-17.05.23:842][548]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.22-17.05.23:842][548]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	modified:   Saved/Logs/CharacterMechanics.log
+[2017.05.22-17.05.23:842][548]SourceControl: Info Untracked files:
+[2017.05.22-17.05.23:842][548]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	Saved/Logs/CharacterMechanics-backup-2017.05.22-18.01.40.log
+[2017.05.22-17.05.23:842][548]SourceControl: Info 	Saved/Logs/UE4CC-Windows-0D67B1CB478AF954BFB6828AEAC822E0/
+[2017.05.22-17.05.23:842][548]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.22-17.05.45:439][626]SourceControl: Info On branch master
+[2017.05.22-17.05.45:439][626]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.22-17.05.45:439][626]SourceControl: Info Changes not staged for commit:
+[2017.05.22-17.05.45:439][626]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.22-17.05.45:439][626]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	modified:   Saved/Logs/CharacterMechanics.log
+[2017.05.22-17.05.45:439][626]SourceControl: Info Untracked files:
+[2017.05.22-17.05.45:439][626]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	Saved/Logs/CharacterMechanics-backup-2017.05.22-18.01.40.log
+[2017.05.22-17.05.45:439][626]SourceControl: Info 	Saved/Logs/UE4CC-Windows-0D67B1CB478AF954BFB6828AEAC822E0/
+[2017.05.22-17.05.45:439][626]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.22-17.06.31:772][106]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.05.22-17.06.40:795][546]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.05.22-17.07.02:381][504]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.05.22-17.07.17:172][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.05.22-17.07.37:063][156]SourceControl: Info Source control is disabled
+[2017.05.22-17.07.48:848][738]SourceControl: Info On branch master
+[2017.05.22-17.07.48:848][738]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.22-17.07.48:848][738]SourceControl: Info Changes not staged for commit:
+[2017.05.22-17.07.48:848][738]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.22-17.07.48:848][738]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	modified:   Saved/Logs/CharacterMechanics.log
+[2017.05.22-17.07.48:848][738]SourceControl: Info Untracked files:
+[2017.05.22-17.07.48:848][738]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	Saved/Logs/CharacterMechanics-backup-2017.05.22-18.01.40.log
+[2017.05.22-17.07.48:848][738]SourceControl: Info 	Saved/Logs/UE4CC-Windows-0D67B1CB478AF954BFB6828AEAC822E0/
+[2017.05.22-17.07.48:848][738]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.22-17.08.06:160][491]LogSlate: Took 0.025357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.22-17.08.09:263][608]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-17.08.10:410][608]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.05.22-17.08.12:114][608]LogSlate: Took 0.023498 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.22-17.14.40:334][252]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.14.47:138][469]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.14.47:170][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.14.47:170][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.14.47:170][469]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:14:47 PM)
+[2017.05.22-17.14.47:170][469]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.14.47:225][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054763s)
+[2017.05.22-17.14.47:226][469]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.14.47:226][469]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2017.05.22-17.14.47:227][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.056423s)
+[2017.05.22-17.14.47:279][469]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.14.47:290][469]LogInit: FAudioDevice initialized.
+[2017.05.22-17.14.47:319][469]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.14.47:326][469]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.14.47
+[2017.05.22-17.14.47:326][469]LogWorld: Bringing up level for play took: 0.004910
+[2017.05.22-17.14.47:328][469]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.58
+[2017.05.22-17.14.47:329][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.14.47:898][496]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.14.49:621][584]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.14.53:096][765]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.14.53:168][769]PIE:Warning: Warning Mobility of Floor_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.14.55:140][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.14.55:312][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.15.03:771][137]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.15.06:424][206]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.15.06:445][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.15.06:445][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.15.06:445][206]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:15:06 PM)
+[2017.05.22-17.15.06:445][206]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.15.06:501][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055595s)
+[2017.05.22-17.15.06:502][206]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.15.06:502][206]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2017.05.22-17.15.06:502][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.057246s)
+[2017.05.22-17.15.06:558][206]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.15.06:568][206]LogInit: FAudioDevice initialized.
+[2017.05.22-17.15.06:599][206]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.15.06:605][206]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.15.06
+[2017.05.22-17.15.06:606][206]LogWorld: Bringing up level for play took: 0.004793
+[2017.05.22-17.15.06:608][206]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.699
+[2017.05.22-17.15.06:608][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.15.07:568][252]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.15.10:214][385]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.15.21:163][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.15.21:339][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.15.59:258][ 78]LogEditorTransaction: Undo Break Pin Links
+[2017.05.22-17.16.02:054][182]LogSavePackage: Save=244.73ms
+[2017.05.22-17.16.02:054][182]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_Auto1DFF1FEAB4B1848DDDBE21ABBF7C7A7FC.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestLevel_Auto1.umap'
+[2017.05.22-17.16.02:055][182]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestLevel_Auto1.umap
+[2017.05.22-17.16.02:060][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TestLevel' took 0.290
+[2017.05.22-17.16.02:060][182]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2017.05.22-17.16.02:067][182]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.05.22-17.16.02:152][182]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.05.22-17.16.02:152][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.05.22-17.16.02:345][182]LogSavePackage: Save=182.13ms
+[2017.05.22-17.16.02:345][182]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter_Auto1E3D676514F7DEB029F7643B3C7FFBC14.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2017.05.22-17.16.02:346][182]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2017.05.22-17.16.02:346][182]LogFileHelpers: Auto-saving content packages took 0.280
+[2017.05.22-17.16.31:288][851]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.16.33:969][921]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.16.33:991][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.16.33:991][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.16.33:992][921]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:16:33 PM)
+[2017.05.22-17.16.33:992][921]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.16.34:065][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072993s)
+[2017.05.22-17.16.34:067][921]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.16.34:068][921]LogPlayLevel: PIE: World Init took: (0.003158s)
+[2017.05.22-17.16.34:069][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.077060s)
+[2017.05.22-17.16.34:118][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.16.34:128][921]LogInit: FAudioDevice initialized.
+[2017.05.22-17.16.34:161][921]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.16.34:168][921]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.16.34
+[2017.05.22-17.16.34:168][921]LogWorld: Bringing up level for play took: 0.005350
+[2017.05.22-17.16.34:170][921]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.261
+[2017.05.22-17.16.34:170][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.16.35:286][977]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.16.37:048][ 60]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.16.48:701][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.16.48:881][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.17.25:131][563]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.17.28:456][673]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.17.28:476][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.17.28:476][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.17.28:476][673]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:17:28 PM)
+[2017.05.22-17.17.28:476][673]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.17.28:505][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028501s)
+[2017.05.22-17.17.28:507][673]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.17.28:508][673]LogPlayLevel: PIE: World Init took: (0.002966s)
+[2017.05.22-17.17.28:509][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.032478s)
+[2017.05.22-17.17.28:568][673]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.17.28:578][673]LogInit: FAudioDevice initialized.
+[2017.05.22-17.17.28:610][673]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.17.28:616][673]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.17.28
+[2017.05.22-17.17.28:616][673]LogWorld: Bringing up level for play took: 0.004704
+[2017.05.22-17.17.28:618][673]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.709
+[2017.05.22-17.17.28:618][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.17.29:202][698]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.17.30:147][742]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.17.37:739][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.17.37:914][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.18.39:802][ 72]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.18.43:232][174]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.18.43:253][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.18.43:253][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.18.43:253][174]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:18:43 PM)
+[2017.05.22-17.18.43:253][174]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.18.43:282][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029078s)
+[2017.05.22-17.18.43:283][174]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.18.43:284][174]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2017.05.22-17.18.43:284][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.030776s)
+[2017.05.22-17.18.43:345][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.18.43:354][174]LogInit: FAudioDevice initialized.
+[2017.05.22-17.18.43:387][174]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.18.43:393][174]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.18.43
+[2017.05.22-17.18.43:394][174]LogWorld: Bringing up level for play took: 0.004668
+[2017.05.22-17.18.43:396][174]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.513
+[2017.05.22-17.18.43:396][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.18.44:213][210]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.18.45:846][286]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.18.48:367][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.18.48:551][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.19.12:693][754]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:21976).
+[2017.05.22-17.23.07:776][196]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.23.11:733][297]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.23.11:756][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.23.11:756][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.23.11:757][297]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:23:11 PM)
+[2017.05.22-17.23.11:757][297]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.23.11:786][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029006s)
+[2017.05.22-17.23.11:787][297]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.23.11:787][297]LogPlayLevel: PIE: World Init took: (0.001279s)
+[2017.05.22-17.23.11:787][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.030652s)
+[2017.05.22-17.23.11:846][297]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.23.11:856][297]LogInit: FAudioDevice initialized.
+[2017.05.22-17.23.11:886][297]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.23.11:892][297]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.23.11
+[2017.05.22-17.23.11:893][297]LogWorld: Bringing up level for play took: 0.004651
+[2017.05.22-17.23.11:895][297]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.014
+[2017.05.22-17.23.11:895][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.23.12:601][327]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.23.14:645][421]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.23.26:428][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.23.26:607][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.24.23:965][202]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.24.26:977][288]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.24.27:000][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.24.27:000][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.24.27:001][288]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:24:27 PM)
+[2017.05.22-17.24.27:001][288]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.24.27:029][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028534s)
+[2017.05.22-17.24.27:030][288]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.24.27:031][288]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2017.05.22-17.24.27:031][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.030195s)
+[2017.05.22-17.24.27:091][288]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.24.27:101][288]LogInit: FAudioDevice initialized.
+[2017.05.22-17.24.27:132][288]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.24.27:138][288]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.24.27
+[2017.05.22-17.24.27:139][288]LogWorld: Bringing up level for play took: 0.004842
+[2017.05.22-17.24.27:141][288]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.768
+[2017.05.22-17.24.27:141][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.24.27:868][319]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.24.29:267][383]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.24.38:159][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.24.38:343][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.19:875][ 83]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.25.22:390][140]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.25.22:411][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.22:411][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.25.22:412][140]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:25:22 PM)
+[2017.05.22-17.25.22:412][140]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.25.22:445][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033178s)
+[2017.05.22-17.25.22:446][140]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.25.22:447][140]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2017.05.22-17.25.22:447][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.035353s)
+[2017.05.22-17.25.22:511][140]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.25.22:521][140]LogInit: FAudioDevice initialized.
+[2017.05.22-17.25.22:554][140]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.25.22:560][140]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.25.22
+[2017.05.22-17.25.22:560][140]LogWorld: Bringing up level for play took: 0.004735
+[2017.05.22-17.25.22:562][140]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.653
+[2017.05.22-17.25.22:562][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.23:087][162]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.25.24:553][230]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.25.26:895][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.27:076][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.47:493][448]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.25.54:388][653]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.25.54:410][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.54:410][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.25.54:410][653]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:25:54 PM)
+[2017.05.22-17.25.54:410][653]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.25.54:438][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028383s)
+[2017.05.22-17.25.54:439][653]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.25.54:440][653]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2017.05.22-17.25.54:440][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.030030s)
+[2017.05.22-17.25.54:491][653]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.25.54:501][653]LogInit: FAudioDevice initialized.
+[2017.05.22-17.25.54:532][653]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.25.54:537][653]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.25.54
+[2017.05.22-17.25.54:538][653]LogWorld: Bringing up level for play took: 0.004640
+[2017.05.22-17.25.54:540][653]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.631
+[2017.05.22-17.25.54:540][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.25.55:559][698]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.25.56:029][720]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.26.17:993][750]PIE:Warning: Warning Mobility of Cube4_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.26.18:626][779]PIE:Warning: Warning Mobility of Cube4_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.26.19:700][830]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:08D1
+[2017.05.22-17.26.19:700][830]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Add Impulse in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.26.19:700][830]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:09BE
+[2017.05.22-17.26.19:701][830]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Collision Response to Channel in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.26.20:424][864]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:08D1
+[2017.05.22-17.26.20:424][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Add Impulse in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.26.20:424][864]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:09BE
+[2017.05.22-17.26.20:424][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2 from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Collision Response to Channel in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent2
+[2017.05.22-17.26.38:334][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.26.38:527][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.26.48:689][136]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.26.51:180][195]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.26.51:214][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.26.51:214][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.26.51:214][195]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:26:51 PM)
+[2017.05.22-17.26.51:214][195]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.26.51:252][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037417s)
+[2017.05.22-17.26.51:253][195]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.26.51:253][195]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2017.05.22-17.26.51:253][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.039006s)
+[2017.05.22-17.26.51:312][195]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.26.51:321][195]LogInit: FAudioDevice initialized.
+[2017.05.22-17.26.51:353][195]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.26.51:359][195]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.26.51
+[2017.05.22-17.26.51:360][195]LogWorld: Bringing up level for play took: 0.004884
+[2017.05.22-17.26.51:362][195]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.547
+[2017.05.22-17.26.51:362][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.26.51:973][221]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.26.52:580][249]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.27.04:328][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.27.04:504][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.27.28:228][150]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.22-17.27.31:604][243]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.22-17.27.31:626][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.27.31:626][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.22-17.27.31:627][243]PIE: New page: PIE session: TestLevel (May 22, 2017, 7:27:31 PM)
+[2017.05.22-17.27.31:627][243]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.22-17.27.31:655][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028066s)
+[2017.05.22-17.27.31:656][243]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.22-17.27.31:656][243]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2017.05.22-17.27.31:656][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.029700s)
+[2017.05.22-17.27.31:712][243]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-17.27.31:721][243]LogInit: FAudioDevice initialized.
+[2017.05.22-17.27.31:753][243]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.22-17.27.31:760][243]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.22-18.27.31
+[2017.05.22-17.27.31:760][243]LogWorld: Bringing up level for play took: 0.005516
+[2017.05.22-17.27.31:762][243]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.147
+[2017.05.22-17.27.31:762][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.27.32:777][288]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.22-17.27.34:529][368]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.22-17.28.03:931][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.28.04:120][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.22-17.28.20:510][572]LogSavePackage: Save=185.91ms
+[2017.05.22-17.28.20:510][572]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter193D25BA4BB5BFBC56637EA151C974AD.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.22-17.28.20:516][572]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.22-17.28.24:640][771]LogSavePackage: Save=204.17ms
+[2017.05.22-17.28.24:640][771]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel6A5E140842F204D503848CAE53D89867.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap'
+[2017.05.22-17.28.24:645][771]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap
+[2017.05.22-17.28.24:983][771]LogSavePackage: Save=208.73ms
+[2017.05.22-17.28.24:983][771]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_BuiltData886DDF4F4282CD5C350DA3B4903B6B54.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset'
+[2017.05.22-17.28.24:984][771]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset
