@@ -779,3 +779,1014 @@ LogInit: Object subsystem initialized
 [2017.05.23-13.51.03:210][379]PIE:Warning: Warning Mobility of Cylinder2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
 [2017.05.23-13.51.06:008][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
 [2017.05.23-13.51.06:067][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-13.52.39:128][985]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-13.52.39:149][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-13.52.39:149][985]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.23-13.52.39:149][985]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2017.05.23-13.52.39:300][985]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2017.05.23-13.52.39:301][985]PIE: New page: PIE session: TestLevel (May 23, 2017, 3:52:39 PM)
+[2017.05.23-13.52.39:301][985]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-13.52.39:325][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024229s)
+[2017.05.23-13.52.39:326][985]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-13.52.39:326][985]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2017.05.23-13.52.39:326][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.025790s)
+[2017.05.23-13.52.39:353][985]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-13.52.39:363][985]LogInit: FAudioDevice initialized.
+[2017.05.23-13.52.39:392][985]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-13.52.39:399][985]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-14.52.39
+[2017.05.23-13.52.39:400][985]LogWorld: Bringing up level for play took: 0.005999
+[2017.05.23-13.52.39:402][985]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.341
+[2017.05.23-13.52.39:402][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-13.52.41:112][ 72]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-13.52.41:112][ 72]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:126][ 73]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:143][ 74]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:160][ 75]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:176][ 76]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:193][ 77]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:210][ 78]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:228][ 79]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:245][ 80]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:262][ 81]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:278][ 82]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:295][ 83]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:312][ 84]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:328][ 85]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:345][ 86]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:362][ 87]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:379][ 88]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:398][ 89]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:416][ 90]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:433][ 91]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:452][ 92]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:469][ 93]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:486][ 94]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:503][ 95]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:520][ 96]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:537][ 97]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:555][ 98]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:573][ 99]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:591][100]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:607][101]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:625][102]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:642][103]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:660][104]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:677][105]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:694][106]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:715][107]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:730][108]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:748][109]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:766][110]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:786][111]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:802][112]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:818][113]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:836][114]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:854][115]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:872][116]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:889][117]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:908][118]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:925][119]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:942][120]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:958][121]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:976][122]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.41:994][123]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:012][124]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:030][125]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:049][126]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:067][127]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:085][128]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:103][129]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:120][130]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:137][131]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:154][132]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:172][133]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:191][134]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:207][135]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:225][136]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:242][137]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:259][138]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:277][139]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:295][140]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:315][141]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:336][142]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:351][143]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:368][144]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:384][145]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:402][146]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:419][147]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:436][148]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:454][149]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:471][150]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:489][151]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:506][152]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:524][153]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:542][154]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:559][155]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:576][156]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:594][157]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:613][158]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:631][159]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:648][160]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:666][161]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:683][162]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:700][163]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:717][164]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:734][165]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:752][166]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:770][167]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:788][168]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:804][169]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:821][170]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:838][171]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:855][172]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:874][173]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:890][174]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:907][175]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:924][176]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:941][177]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:958][178]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:976][179]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.42:993][180]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:012][181]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:029][182]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:047][183]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:064][184]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:082][185]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:100][186]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:117][187]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:135][188]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:151][189]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:170][190]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:188][191]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:205][192]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:222][193]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:239][194]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:255][195]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:273][196]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:290][197]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:306][198]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:323][199]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:342][200]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:361][201]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:377][202]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:394][203]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:409][204]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:428][205]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:447][206]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:465][207]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:482][208]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:500][209]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:516][210]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:533][211]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:550][212]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:568][213]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:585][214]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:602][215]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:620][216]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:637][217]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:654][218]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:670][219]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:687][220]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:705][221]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:722][222]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:739][223]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:757][224]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:776][225]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:792][226]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:811][227]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:830][228]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:849][229]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:866][230]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:883][231]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:901][232]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:918][233]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:935][234]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:953][235]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:969][236]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.43:986][237]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:003][238]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:020][239]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:036][240]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:053][241]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:071][242]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:088][243]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:104][244]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:121][245]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:138][246]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:154][247]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:171][248]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:189][249]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:206][250]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:223][251]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:239][252]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:256][253]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:273][254]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:290][255]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:307][256]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:325][257]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:342][258]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:359][259]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:376][260]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:394][261]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:412][262]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:428][263]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:445][264]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:462][265]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:479][266]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:498][267]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:516][268]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:533][269]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:549][270]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:566][271]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:584][272]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:601][273]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:619][274]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:637][275]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:654][276]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:671][277]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:690][278]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:707][279]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:726][280]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:744][281]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:762][282]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:779][283]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:797][284]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:814][285]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:832][286]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:849][287]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:866][288]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:884][289]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:902][290]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:920][291]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:936][292]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:954][293]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:974][294]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.44:989][295]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:009][296]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:028][297]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:045][298]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:062][299]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:079][300]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:098][301]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:115][302]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:132][303]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:151][304]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:169][305]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:186][306]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:203][307]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:221][308]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:238][309]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:255][310]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:274][311]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:293][312]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:311][313]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:328][314]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:345][315]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:363][316]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:380][317]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:398][318]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:415][319]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:433][320]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:450][321]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:468][322]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:486][323]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:504][324]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:520][325]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:538][326]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:557][327]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:576][328]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:593][329]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:610][330]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:629][331]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:646][332]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:665][333]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:682][334]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:699][335]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:716][336]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:734][337]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:751][338]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:769][339]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:790][340]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:805][341]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:824][342]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:841][343]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:860][344]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:878][345]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:896][346]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:912][347]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:930][348]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:947][349]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:965][350]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:982][351]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.45:999][352]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:016][353]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:034][354]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:052][355]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:070][356]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:087][357]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:106][358]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:125][359]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:143][360]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.46:160][361]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-13.52.50:961][639]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-13.52.50:962][639]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.50:977][640]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.50:994][641]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:012][642]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:031][643]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:050][644]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:067][645]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:085][646]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:102][647]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:120][648]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:137][649]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:156][650]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:175][651]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:192][652]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:209][653]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:227][654]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:247][655]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:265][656]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:283][657]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:301][658]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:320][659]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:337][660]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:355][661]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:374][662]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:392][663]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:409][664]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:427][665]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:446][666]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:465][667]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:484][668]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:502][669]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:519][670]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:537][671]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:556][672]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:575][673]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:593][674]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:613][675]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:633][676]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:650][677]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:668][678]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:685][679]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:703][680]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:722][681]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:738][682]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:755][683]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:773][684]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:792][685]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:808][686]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:825][687]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:844][688]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:862][689]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:881][690]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:898][691]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:916][692]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:934][693]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:951][694]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:968][695]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.51:986][696]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:003][697]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:021][698]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:040][699]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:059][700]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:078][701]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:096][702]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:115][703]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:133][704]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:150][705]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:168][706]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:186][707]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:205][708]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:222][709]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:242][710]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:257][711]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:277][712]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:295][713]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:313][714]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:332][715]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:350][716]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:368][717]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:386][718]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:405][719]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:423][720]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:440][721]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:461][722]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:480][723]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:497][724]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:515][725]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:533][726]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:551][727]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:568][728]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:586][729]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:605][730]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:622][731]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:640][732]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:658][733]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:677][734]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:695][735]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:713][736]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:732][737]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:749][738]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:766][739]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:784][740]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:802][741]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:819][742]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:837][743]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:854][744]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:872][745]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:890][746]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:909][747]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:929][748]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:947][749]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:965][750]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:982][751]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.52:999][752]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:016][753]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:035][754]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:052][755]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:070][756]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:088][757]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:105][758]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:125][759]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:143][760]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:162][761]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:180][762]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:197][763]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:214][764]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:232][765]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:250][766]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:268][767]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:287][768]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:304][769]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:321][770]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:340][771]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:359][772]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:378][773]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:395][774]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:413][775]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:432][776]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:449][777]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:467][778]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:485][779]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-13.52.53:503][780]PIE:Warning: Warning Mobility of Cube3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-13.53.02:380][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-13.53.02:482][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-13.57.40:308][ 36]LogSavePackage: Save=211.77ms
+[2017.05.23-13.57.40:308][ 36]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel161D4674485A5858678A5CB70AE0ECBE.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap'
+[2017.05.23-13.57.40:315][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap
+[2017.05.23-13.57.40:362][ 36]LogFileHelpers: Saving map 'TestLevel' took 0.412
+[2017.05.23-13.57.40:675][ 36]LogSavePackage: Save=219.86ms
+[2017.05.23-13.57.40:675][ 36]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter02F456E24C0898C45E3A2DB4F59D08AA.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.23-13.57.40:679][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.23-13.57.40:749][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Enemy" FILE="../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/Enemy.uasset" SILENT=true
+[2017.05.23-13.57.40:785][ 36]LogSavePackage: Save=25.69ms
+[2017.05.23-13.57.40:785][ 36]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Enemy017D5EE54FABFF37B703CFAA64E02434.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/Enemy.uasset'
+[2017.05.23-13.57.40:787][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/Enemy.uasset
+[2017.05.23-14.04.27:789][499]SourceControl: Info fatal: D:/Software/UnrealEngine/UE_4.15/Engine/Content/: 'D:/Software/UnrealEngine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.23-14.04.28:213][499]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.04.28:970][499]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.756 s
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: 
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: Stack: 
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009FAB95E6
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009F869B82
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009F87B666
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000A64EA6E8
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000A8553D22
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000A8553EB9
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000908C1D2E
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000009087B4B5
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000009087AA8D
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000009088F274
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000007D65B851
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000007D66D1ED
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000A8559C5C
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009AD37517
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000009B542156
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor.exe!0x000000004A77DEE3
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor.exe!0x000000004A76EB40
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor.exe!0x000000004A76EBBA
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor.exe!0x000000004A780A29
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: UE4Editor.exe!0x000000004A7822B6
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: KERNEL32.DLL!0x00000000D3BD8364
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: ntdll.dll!0x00000000D3E270D1
+[2017.05.23-14.04.28:970][499]LogOutputDevice:Error: 
+[2017.05.23-14.04.28:971][499]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.23-14.04.35:266][499]LogStats:                    SendNewReport -  6.295 s
+[2017.05.23-14.04.35:266][499]LogStats:             FDebug::EnsureFailed -  7.052 s
+[2017.05.23-14.04.57:239][499]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.23-14.04.57:339][499]SourceControl: Info [master 01746ee] update
+[2017.05.23-14.04.57:339][499]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.05.23-14.04.57:339][499]SourceControl: Info  rewrite Content/ThirdPersonBP/Blueprints/Enemy.uasset (66%)
+[2017.05.23-14.04.57:339][499]SourceControl: Info  rewrite Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (72%)
+[2017.05.23-14.04.57:346][499]SourceControl: Info Commited [master 01746ee] update.
+[2017.05.23-14.04.57:347][499]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
+[2017.05.23-14.05.19:793][971]SourceControl: Info fatal: D:/Software/UnrealEngine/UE_4.15/Engine/Content/: 'D:/Software/UnrealEngine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.23-14.05.19:905][971]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.05.45:021][420]SourceControl: Info fatal: D:/Software/UnrealEngine/UE_4.15/Engine/Content/: 'D:/Software/UnrealEngine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.23-14.05.45:120][420]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.05.49:601][420]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
+[2017.05.23-14.05.53:620][526]SourceControl: Info fatal: D:/Software/UnrealEngine/UE_4.15/Engine/Content/: 'D:/Software/UnrealEngine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.23-14.05.53:716][526]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.06.26:593][850]SourceControl: Info fatal: D:/Software/UnrealEngine/UE_4.15/Engine/Content/: 'D:/Software/UnrealEngine/UE_4.15/Engine/Content/' is outside repository
+[2017.05.23-14.06.26:690][850]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/CharacterMechanics.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.23-14.06.57:322][  3]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.23-14.06.57:970][  6]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CharacterMechanics
+
+[2017.05.23-14.06.57:970][  6]LogTemp:Display: CWD: D:\Software\UnrealEngine\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.23-14.06.57:970][  6]LogTemp:Display: Initial Dir: D:\Software\UnrealEngine\UE_4.15
+
+[2017.05.23-14.06.57:970][  6]LogTemp:Display: Env CWD: D:\Software\UnrealEngine\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.23-14.06.57:970][  6]LogTemp:Display: BranchPath = DESKTOP-SH5P05C/D/Software/UnrealEngine/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-SH5P05C/D/Software/UnrealEngine/UE_4.15/Engine/Binaries
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\txhun\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.23-14.06.58:288][  7]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.23-14.07.52:102][339]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.07.52:126][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.07.52:126][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.07.52:126][339]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:07:52 PM)
+[2017.05.23-14.07.52:127][339]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.07.52:152][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025461s)
+[2017.05.23-14.07.52:153][339]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.07.52:154][339]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2017.05.23-14.07.52:154][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.027516s)
+[2017.05.23-14.07.52:199][339]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.07.52:209][339]LogInit: FAudioDevice initialized.
+[2017.05.23-14.07.52:243][339]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.07.52:250][339]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.07.52
+[2017.05.23-14.07.52:251][339]LogWorld: Bringing up level for play took: 0.006286
+[2017.05.23-14.07.52:253][339]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.51
+[2017.05.23-14.07.52:253][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.07.52:952][376]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.07.52:953][376]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.52:967][377]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.52:984][378]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:001][379]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:018][380]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:036][381]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:054][382]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:073][383]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:090][384]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:107][385]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:126][386]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:143][387]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:161][388]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:179][389]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:197][390]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:214][391]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:232][392]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:249][393]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:267][394]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:285][395]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:304][396]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:321][397]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:339][398]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:356][399]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:375][400]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:394][401]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:411][402]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:428][403]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:447][404]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:464][405]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:482][406]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:500][407]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:518][408]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:536][409]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:556][410]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:572][411]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:591][412]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:610][413]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:627][414]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:644][415]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:663][416]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:680][417]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:697][418]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:716][419]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:733][420]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:752][421]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:770][422]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:787][423]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:804][424]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:823][425]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:841][426]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:860][427]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:877][428]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:894][429]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:913][430]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:931][431]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:948][432]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:965][433]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.53:982][434]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:000][435]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:019][436]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:038][437]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:056][438]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:070][439]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:089][440]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:107][441]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:125][442]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.07.54:142][443]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.09.17:677][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.09.17:733][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.11.32:397][381]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TestLevel' took 0.020
+[2017.05.23-14.11.32:399][381]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.05.23-14.11.32:475][381]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.05.23-14.11.32:475][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.05.23-14.11.32:670][381]LogSavePackage: Save=184.58ms
+[2017.05.23-14.11.32:670][381]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter_Auto32E24F156449C66E63E1327ACD71B1516.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2017.05.23-14.11.32:671][381]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2017.05.23-14.11.32:671][381]LogFileHelpers: Auto-saving content packages took 0.274
+[2017.05.23-14.13.55:886][ 43]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.14.00:972][232]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.14.05:955][444]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.14.05:981][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.05:981][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.14.05:981][444]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:14:05 PM)
+[2017.05.23-14.14.05:981][444]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.14.06:011][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029944s)
+[2017.05.23-14.14.06:012][444]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.14.06:013][444]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2017.05.23-14.14.06:013][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.031772s)
+[2017.05.23-14.14.06:042][444]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.14.06:052][444]LogInit: FAudioDevice initialized.
+[2017.05.23-14.14.06:088][444]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.14.06:094][444]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.14.06
+[2017.05.23-14.14.06:095][444]LogWorld: Bringing up level for play took: 0.006037
+[2017.05.23-14.14.06:097][444]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.354
+[2017.05.23-14.14.06:097][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.07:262][508]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.14.07:262][508]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:279][509]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:297][510]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:315][511]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:334][512]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:354][513]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:374][514]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:393][515]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:412][516]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:431][517]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:450][518]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:470][519]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:490][520]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:508][521]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:526][522]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:544][523]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:563][524]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:581][525]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:599][526]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:619][527]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:638][528]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:656][529]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:675][530]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:692][531]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:711][532]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:730][533]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:749][534]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:769][535]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:789][536]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:807][537]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:825][538]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:844][539]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:862][540]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:880][541]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:900][542]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:918][543]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:937][544]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.07:954][545]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.14.17:385][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.17:489][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.29:894][541]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.14.32:693][625]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.14.32:714][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.32:715][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.14.32:715][625]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:14:32 PM)
+[2017.05.23-14.14.32:715][625]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.14.32:746][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030360s)
+[2017.05.23-14.14.32:747][625]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.14.32:748][625]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2017.05.23-14.14.32:748][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.032506s)
+[2017.05.23-14.14.32:776][625]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.14.32:785][625]LogInit: FAudioDevice initialized.
+[2017.05.23-14.14.32:822][625]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.14.32:829][625]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.14.32
+[2017.05.23-14.14.32:830][625]LogWorld: Bringing up level for play took: 0.006001
+[2017.05.23-14.14.32:832][625]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 1.089
+[2017.05.23-14.14.32:832][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.33:772][674]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.14.33:773][674]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:788][675]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:807][676]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:824][677]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:842][678]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:861][679]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:882][680]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:898][681]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:917][682]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:936][683]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:954][684]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:972][685]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.33:990][686]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:009][687]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:027][688]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:046][689]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:066][690]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:085][691]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:106][692]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:127][693]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:147][694]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:166][695]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:187][696]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:205][697]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:224][698]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:245][699]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:264][700]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:283][701]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:302][702]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:321][703]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:340][704]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:362][705]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.34:379][706]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.14.42:248][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.42:353][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.48:344][317]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.14.50:742][382]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.14.50:764][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.50:764][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.14.50:764][382]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:14:50 PM)
+[2017.05.23-14.14.50:764][382]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.14.50:791][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027061s)
+[2017.05.23-14.14.50:793][382]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.14.50:793][382]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2017.05.23-14.14.50:793][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.028948s)
+[2017.05.23-14.14.50:821][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.14.50:830][382]LogInit: FAudioDevice initialized.
+[2017.05.23-14.14.50:863][382]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.14.50:869][382]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.14.50
+[2017.05.23-14.14.50:870][382]LogWorld: Bringing up level for play took: 0.005696
+[2017.05.23-14.14.50:872][382]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.871
+[2017.05.23-14.14.50:872][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.51:623][422]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.14.51:623][422]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:638][423]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:654][424]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:671][425]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:689][426]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:706][427]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:724][428]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:741][429]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:759][430]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:777][431]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:796][432]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:812][433]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:831][434]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:849][435]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:866][436]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:883][437]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:900][438]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:919][439]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:937][440]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:955][441]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:972][442]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.51:989][443]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:005][444]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:022][445]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:038][446]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:055][447]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:072][448]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:090][449]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:108][450]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:125][451]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.14.52:141][452]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.14.58:722][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.14.58:823][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.15.27:918][ 88]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.15.31:260][192]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.15.31:286][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.15.31:286][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.15.31:286][192]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:15:31 PM)
+[2017.05.23-14.15.31:286][192]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.15.31:311][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024241s)
+[2017.05.23-14.15.31:312][192]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.15.31:312][192]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2017.05.23-14.15.31:312][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.026001s)
+[2017.05.23-14.15.31:343][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.15.31:352][192]LogInit: FAudioDevice initialized.
+[2017.05.23-14.15.31:386][192]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.15.31:393][192]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.15.31
+[2017.05.23-14.15.31:394][192]LogWorld: Bringing up level for play took: 0.005920
+[2017.05.23-14.15.31:396][192]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.347
+[2017.05.23-14.15.31:396][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.15.32:293][236]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.15.32:294][236]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:309][237]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:330][238]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:347][239]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:367][240]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:386][241]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:404][242]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:424][243]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:445][244]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:463][245]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:482][246]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:503][247]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:523][248]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:542][249]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:561][250]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:579][251]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:599][252]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:618][253]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:638][254]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:658][255]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:676][256]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:696][257]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:714][258]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:734][259]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:753][260]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:770][261]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:789][262]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:808][263]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:826][264]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:844][265]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:865][266]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:884][267]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.15.32:901][268]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.15.43:636][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.15.43:740][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.20.11:186][318]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.20.12:571][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall12)
+[2017.05.23-14.20.13:290][363]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.20.13:313][363]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.20.13:313][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.20.13:313][363]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:20:13 PM)
+[2017.05.23-14.20.13:313][363]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.20.13:341][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027457s)
+[2017.05.23-14.20.13:342][363]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.20.13:342][363]LogPlayLevel: PIE: World Init took: (0.001282s)
+[2017.05.23-14.20.13:343][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.029114s)
+[2017.05.23-14.20.13:372][363]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.20.13:383][363]LogInit: FAudioDevice initialized.
+[2017.05.23-14.20.13:412][363]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.20.13:419][363]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.20.13
+[2017.05.23-14.20.13:420][363]LogWorld: Bringing up level for play took: 0.006126
+[2017.05.23-14.20.13:422][363]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel -0.321
+[2017.05.23-14.20.13:423][363]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.20.14:064][397]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.20.14:064][397]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:078][398]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:095][399]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:110][400]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:129][401]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:146][402]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:165][403]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:182][404]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:201][405]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:217][406]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:234][407]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:252][408]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:269][409]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:286][410]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:304][411]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:320][412]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:337][413]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:355][414]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:372][415]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:389][416]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:407][417]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:423][418]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:441][419]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:459][420]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:477][421]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:496][422]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:513][423]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:532][424]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:549][425]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:566][426]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:584][427]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:601][428]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:620][429]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:637][430]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:655][431]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:673][432]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:690][433]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:707][434]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:725][435]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:743][436]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:762][437]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:780][438]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:797][439]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:814][440]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:832][441]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.20.14:849][442]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.20.37:444][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.20.37:582][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.20.53:973][412]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.21.04:188][757]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.23-14.21.19:840][315]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.23-14.21.19:863][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.21.19:863][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-14.21.19:864][315]PIE: New page: PIE session: TestLevel (May 23, 2017, 4:21:19 PM)
+[2017.05.23-14.21.19:864][315]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel
+[2017.05.23-14.21.19:888][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024005s)
+[2017.05.23-14.21.19:889][315]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.23-14.21.19:889][315]LogPlayLevel: PIE: World Init took: (0.001422s)
+[2017.05.23-14.21.19:890][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestLevel.TestLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.025833s)
+[2017.05.23-14.21.19:916][315]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.23-14.21.19:926][315]LogInit: FAudioDevice initialized.
+[2017.05.23-14.21.19:958][315]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.23-14.21.19:965][315]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.05.23-15.21.19
+[2017.05.23-14.21.19:966][315]LogWorld: Bringing up level for play took: 0.006151
+[2017.05.23-14.21.19:968][315]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestLevel 0.225
+[2017.05.23-14.21.19:968][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.21.20:833][362]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to GetMass. 
+[2017.05.23-14.21.20:834][362]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:848][363]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:865][364]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:882][365]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:899][366]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:917][367]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:935][368]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:953][369]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:970][370]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.20:988][371]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:005][372]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:021][373]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:039][374]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:056][375]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:073][376]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:093][377]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:111][378]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:129][379]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:147][380]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:164][381]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:180][382]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:197][383]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:214][384]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:231][385]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:248][386]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:266][387]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:283][388]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:300][389]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:317][390]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:333][391]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:351][392]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:368][393]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:385][394]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:402][395]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:420][396]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:437][397]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:454][398]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:471][399]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:488][400]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:504][401]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.23-14.21.21:521][402]PIE:Warning: Warning Mobility of Cube_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulse. 
+[2017.05.23-14.21.31:746][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.21.31:842][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.05.23-14.22.51:212][284]LogSavePackage: Save=223.99ms
+[2017.05.23-14.22.51:212][284]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_Auto46ADF981F4E1BA32BAE2B28B5633D3549.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestLevel_Auto4.umap'
+[2017.05.23-14.22.51:213][284]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestLevel_Auto4.umap
+[2017.05.23-14.22.51:215][284]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TestLevel' took 0.437
+[2017.05.23-14.22.51:215][284]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.437
+[2017.05.23-14.22.51:218][284]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.05.23-14.22.51:290][284]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.05.23-14.22.51:290][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.05.23-14.22.51:484][284]LogSavePackage: Save=183.44ms
+[2017.05.23-14.22.51:484][284]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter_Auto41071509640810DBF25016BB6AF5A0267.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2017.05.23-14.22.51:485][284]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset
+[2017.05.23-14.22.51:485][284]LogFileHelpers: Auto-saving content packages took 0.269
+[2017.05.23-14.25.11:686][790]LogSavePackage: Save=212.85ms
+[2017.05.23-14.25.11:686][790]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevelAA0E5CAC4FFC2BA5DC9D7FAB74DAEC9D.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap'
+[2017.05.23-14.25.11:692][790]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap
+[2017.05.23-14.25.12:261][790]LogSavePackage: Save=162.19ms
+[2017.05.23-14.25.12:261][790]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_BuiltData7F41D7824CA5D601B3CD5B8F462E286A.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset'
+[2017.05.23-14.25.12:262][790]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset
+[2017.05.23-14.25.13:061][803]LogSavePackage: Save=171.46ms
+[2017.05.23-14.25.13:061][803]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/ThirdPersonCharacter5AE47AE64AF0830B75D1BEB7EB9A3B39.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.23-14.25.13:065][803]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.23-14.25.19:527][ 27]LogSavePackage: Save=210.94ms
+[2017.05.23-14.25.19:527][ 27]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevelDA4A66794DD899FC8AF5D0A4FDBA83FC.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap'
+[2017.05.23-14.25.19:529][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap
+[2017.05.23-14.25.19:810][ 27]LogSavePackage: Save=149.79ms
+[2017.05.23-14.25.19:810][ 27]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_BuiltData872013114983E72E4FD5BCA8C7990DC6.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset'
+[2017.05.23-14.25.19:811][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset
+[2017.05.23-14.25.24:598][162]LogSavePackage: Save=210.30ms
+[2017.05.23-14.25.24:598][162]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevelFA1C9443437AD11871D7C2B76B54F994.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap'
+[2017.05.23-14.25.24:600][162]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel.umap
+[2017.05.23-14.25.24:895][162]LogSavePackage: Save=148.80ms
+[2017.05.23-14.25.24:895][162]LogSavePackage: Moving '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Saved/TestLevel_BuiltDataA1D5285642569587F8450BA339E9BF52.tmp' to '../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset'
+[2017.05.23-14.25.24:896][162]LogSavePackage:Display: Finished SavePackage ../../../../../../School/GamerCamp/CharMechs/CharacterMechanics/Content/ThirdPersonBP/Maps/TestLevel_BuiltData.uasset
